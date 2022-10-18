@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(60, 67, 102);
+    color: rgb(219, 215, 215);
+}
+
+img {
+    width: 350px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.bio-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#ijin-biopic {
+    width: 250px;
+}
+#ijin {
+    align-self: flex-end;
+}
+
+.blue {
+    background-color: rgb(47, 50, 65);
+}
