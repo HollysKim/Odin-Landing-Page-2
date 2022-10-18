@@ -7,13 +7,38 @@ body {
     color: rgb(219, 215, 215);
 }
 
+h1 {
+    font-size: 48px;
+}
+
+p {
+    line-height: 28px;
+    font-size: 20px;
+}
+
 img {
     width: 350px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(215, 218, 219);
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.26);
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    padding: 50px;
 }
 
 .subcontainer {
@@ -31,12 +56,63 @@ img {
     gap: 50px;
 }
 
-#ijin-biopic {
-    width: 250px;
+.bio-subcontainer {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
+
+.harem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    background-color: rgb(68, 80, 114);
+}
+
+.harem-subcontainer {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.journey-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.biopic {
+    object-fit: cover;
+    height: 350px;
+    width: 250px;
+    border: 5px black solid;
+}
+
+#third {
+    border: 5px rgb(182, 121, 40) solid;
+}
+
+#first {
+    border: 5px gold solid;
+}
+
+#second {
+    border: 5px silver solid;
+}
+
 #ijin {
     align-self: flex-end;
 }
+
 
 .blue {
     background-color: rgb(47, 50, 65);
